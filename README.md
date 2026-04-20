@@ -17,7 +17,7 @@ Implements a web application protected by WAF and integrates logs into Sentinel 
 
 ### 🔐 SSH Brute Force Detection with Microsoft Sentinel  
 Simulates SSH brute force attacks and demonstrates detection, investigation, and alerting using SIEM capabilities.  
-👉 [View Project](./02- SSH Brute Force Detection with Microsoft Sentinel/README.md)
+👉 [View Project](./02- SSH-Brute-Force-Detection-with-Microsoft-Sentinel/README.md)
 
 ---
 

@@ -11,13 +11,13 @@ I have a strong focus on **Microsoft Sentinel, KQL, and cloud-native security co
 
 ### 🌐 Azure Front Door WAF + Microsoft Sentinel Security Lab  
 Implements a web application protected by WAF and integrates logs into Sentinel for monitoring, detection, and incident response.  
-👉 [View Project](./01-Azure Front Door WAF + Microsoft Sentinel Security Lab/README.md)
+👉 [View Project](./01-Azure-Front-Door-WAF-&-Microsoft-Sentinel-Security-Lab/README.md)
 
 
 
 ### 🔐 SSH Brute Force Detection with Microsoft Sentinel  
 Simulates SSH brute force attacks and demonstrates detection, investigation, and alerting using SIEM capabilities.  
-👉 [View Project](./02- SSH-Brute-Force-Detection-with-Microsoft-Sentinel/README.md)
+👉 [View Project](./02-SSH-Brute-Force-Detection-with-Microsoft-Sentinel/README.md)
 
 ---
 

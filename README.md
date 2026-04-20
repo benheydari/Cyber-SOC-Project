@@ -30,7 +30,7 @@ I come from a strong IT infrastructure background and am actively transitioning 
 ### 🔐 SSH Brute Force Detection with Microsoft Sentinel
 Simulated SSH brute force attack against a Linux VM and built detection logic using KQL to identify suspicious login patterns.
 
-👉 **[View Project](./ssh-brute-force-detection-sentinel/README.md)**
+👉 **[View Project](./02-SSH-Brute-Force-Detection-with-Microsoft-Sentinel/README.md)**
 
 **Key Highlights:**
 - Log ingestion via Log Analytics

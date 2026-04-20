@@ -1,43 +1,59 @@
-
 # ☁️ Cloud Security Projects Portfolio
 
-This repository showcases my hands-on cloud security projects focused on real-world **threat detection, incident response, and security engineering** using Microsoft Azure and SIEM technologies. Each project is designed to simulate practical attack scenarios and demonstrate how to detect, investigate, and respond using modern security tools.
-
-I have a strong focus on **Microsoft Sentinel, KQL, and cloud-native security controls**, with an emphasis on building detection logic, analyzing logs, and improving security visibility across environments.
-
----
-
-## 📂 Featured Projects
-
-### 🌐 Azure Front Door WAF + Microsoft Sentinel Security Lab  
-Implements a web application protected by WAF and integrates logs into Sentinel for monitoring, detection, and incident response.  
-👉 [View Project](./01-Azure-Front-Door-WAF-&-Microsoft-Sentinel-Security-Lab/README.md)
-
-
-
-### 🔐 SSH Brute Force Detection with Microsoft Sentinel  
-Simulates SSH brute force attacks and demonstrates detection, investigation, and alerting using SIEM capabilities.  
-👉 [View Project](./02-SSH-Brute-Force-Detection-with-Microsoft-Sentinel/README.md)
+<p align="left">
+  <img src="https://img.shields.io/badge/Azure-Security-blue?logo=microsoftazure" />
+  <img src="https://img.shields.io/badge/SIEM-Microsoft%20Sentinel-0078D4" />
+  <img src="https://img.shields.io/badge/Language-KQL-informational" />
+  <img src="https://img.shields.io/badge/Focus-Detection%20%26%20Response-critical" />
+  <img src="https://img.shields.io/badge/Status-Active%20Learning-success" />
+</p>
 
 ---
 
+## 👨‍💻 About This Repository
 
+This repository showcases my **hands-on cloud security projects**, focused on **real-world detection engineering, threat hunting, and incident response** using Microsoft Azure.
+
+Each project is designed to simulate realistic attack scenarios and demonstrate how to:
+
+- Detect malicious activity using **Microsoft Sentinel**
+- Investigate incidents using **KQL and log analysis**
+- Build **security controls and monitoring solutions**
+- Improve visibility across cloud environments
+
+I come from a strong IT infrastructure background and am actively transitioning into **Cybersecurity / SOC / Security Engineering roles**, with a focus on **practical, job-ready skills**.
+
+---
+
+## 🚀 Featured Projects
+
+### 🔐 SSH Brute Force Detection with Microsoft Sentinel
+Simulated SSH brute force attack against a Linux VM and built detection logic using KQL to identify suspicious login patterns.
+
+👉 **[View Project](./ssh-brute-force-detection-sentinel/README.md)**
+
+**Key Highlights:**
+- Log ingestion via Log Analytics
+- KQL-based detection rules
+- Incident creation & investigation workflow
+- Mapping to MITRE ATT&CK (Credential Access)
 
 ---
 
-## 🛠️ Technologies & Skills
+### 🌐 Azure Front Door WAF + Microsoft Sentinel Security Lab
+Deployed a web application protected by WAF and integrated logs into Sentinel for monitoring and threat detection.
 
-- Microsoft Azure (IaaS & PaaS)
-- Microsoft Sentinel (SIEM)
-- Kusto Query Language (KQL)
-- Log Analytics
-- Network Security & WAF
-- Threat Detection & Incident Response
+👉 **[View Project](./azure-frontdoor-waf-sentinel/README.md)**
 
----
-
-## 🎯 Purpose
-
-The goal of this repository is to demonstrate practical, hands-on experience in **Security Operations (SOC)** and **Detection Engineering**, aligning with real-world cybersecurity roles and scenarios.
+**Key Highlights:**
+- Azure Front Door (WAF) deployment
+- Web attack simulation (OWASP-style)
+- Log integration into Sentinel
+- Detection and alerting pipeline
 
 ---
+
+## 🧱 Architecture Overview
+
+### 🔐 SSH Brute Force Detection
+

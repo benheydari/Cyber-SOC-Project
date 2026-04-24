@@ -14,7 +14,6 @@ A complete hands-on lab demonstrating web application protection using Azure Fro
 - [Architecture](#architecture)
 - [Prerequisites](#prerequisites)
 - [Learning Objectives](#learning-objectives)
-- [Cost Considerations](#cost-considerations)
 - [Lab Setup](#lab-setup)
 - [Testing & Validation](#testing--validation)
 - [Threat Detection](#threat-detection)
@@ -211,45 +210,6 @@ By completing this lab, you will:
 ✅ Origin protection strategies  
 ✅ Azure resource organization (Resource Groups)  
 ✅ Cost optimization in security architecture  
-
----
-
-## 💰 Cost Considerations
-
-### Estimated Costs (USD per hour)
-
-| Resource | Tier | Hourly Cost | Daily Cost |
-|----------|------|-------------|------------|
-| Azure Front Door | Premium | ~$0.35/hr | ~$8.40/day |
-| App Service | F1 (Free) | $0 | $0 |
-| Log Analytics | Pay-as-you-go | ~$0.10/hr | ~$2.40/day |
-| Microsoft Sentinel | Pay-as-you-go | ~$0.15/hr | ~$3.60/day |
-| **Total Estimated** | | **~$0.60/hr** | **~$14.40/day** |
-
-### Cost Optimization Tips
-
-1. **Use Free Tier where possible:**
-   - App Service: F1 (Free) tier is sufficient
-   - Log Analytics: First 5GB/month is free
-
-2. **Delete resources immediately after testing:**
-   - Front Door Premium is the most expensive component
-   - Even stopped resources can incur costs
-
-3. **Limit log retention:**
-   - Set Log Analytics retention to 30 days (minimum)
-   - Archive older logs to cheaper storage
-
-4. **Test during business hours:**
-   - Complete the lab in 2-3 hours
-   - Total cost: ~$1.20-1.80
-
-### 🚨 CRITICAL: Remember to Clean Up
-
-**Forgetting to delete resources can result in significant charges!**
-- See [Cleanup Section](#cleanup) for step-by-step deletion guide
-- Set a calendar reminder to delete resources
-- Use Azure Cost Alerts to monitor spending
 
 ---
 
